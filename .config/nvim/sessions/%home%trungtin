@@ -1,0 +1,71 @@
+let SessionLoad = 1
+let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
+let v:this_session=expand("<sfile>:p")
+silent only
+cd ~/
+if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
+  let s:wipebuf = bufnr('%')
+endif
+set shortmess=aoO
+badd +1 .zshrc
+badd +14 .bashrc
+badd +4 .config/bspwm/terminals
+badd +1 .config/bspwm/noswallow
+badd +39 .config/bspwm/bspwmrc
+badd +1 ../sxhkd/sxhkdrc
+badd +53 .scripts/pacman.sh
+badd +1 .scripts/colortheme.sh
+badd +1 Coding/angular-film/src/styles.scss
+badd +1 Documents/Chặng\ đường\ 5\ năm\ đàn\ ông
+badd +160 .config/sxhkd/sxhkdrc
+badd +6 Coding/angular-film/src/assets/_colours.scss
+badd +1 .fehbg
+badd +1 Videos/\[FreeCourseSite.com]\ Udemy\ -\ Angular\ -\ The\ Complete\ Guide\ (2020\ Edition)/2.\ The\ Basics/5.\ Understanding\ the\ Role\ of\ AppModule\ and\ Component\ Declaration.srt
+badd +6 _colours.scss
+badd +1 .config/nvim/init.vim
+badd +233 .config/polybar/source/typicons/config.ini
+badd +165 .config/polybar/config.ini
+badd +12 Coding/my-app/src/index.html
+badd +27 Coding/my-app/angular.json
+argglobal
+%argdel
+$argadd .config/nvim/init.vim
+edit .zshrc
+set splitbelow splitright
+set nosplitbelow
+set nosplitright
+wincmd t
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
+argglobal
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 110 - ((16 * winheight(0) + 10) / 21)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+110
+normal! 0
+tabnext 1
+if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
+  silent exe 'bwipe ' . s:wipebuf
+endif
+unlet! s:wipebuf
+set winheight=1 winwidth=20 winminheight=1 winminwidth=1 shortmess=aoOc
+let s:sx = expand("<sfile>:p:r")."x.vim"
+if file_readable(s:sx)
+  exe "source " . fnameescape(s:sx)
+endif
+let &so = s:so_save | let &siso = s:siso_save
+doautoall SessionLoadPost
+unlet SessionLoad
+" vim: set ft=vim :

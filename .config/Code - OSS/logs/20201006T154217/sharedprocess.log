@@ -1,0 +1,8 @@
+[2020-10-06 15:42:20.972] [sharedprocess] [info] main {"machineId":"0c5cc64a6d87201a0519c66b4ebcbd89049d94b04a940be376b52629a4c76c25","windowId":2}
+[2020-10-06 15:42:22.958] [sharedprocess] [info] Installing extension: zhuangtongfa.material-theme
+[2020-10-06 15:42:23.443] [sharedprocess] [info] Downloaded extension: zhuangtongfa.material-theme /home/trungtin/.config/Code - OSS/CachedExtensionVSIXs/zhuangtongfa.material-theme-3.9.2
+[2020-10-06 15:42:23.559] [sharedprocess] [info] Extracted extension to /home/trungtin/.vscode-oss/extensions/.zhuangtongfa.material-theme-3.9.2: zhuangtongfa.material-theme
+[2020-10-06 15:42:23.559] [sharedprocess] [info] Renamed to /home/trungtin/.vscode-oss/extensions/zhuangtongfa.material-theme-3.9.2
+[2020-10-06 15:42:23.560] [sharedprocess] [info] Installation completed. zhuangtongfa.material-theme
+[2020-10-06 15:42:23.569] [sharedprocess] [info] Extensions installed successfully: zhuangtongfa.material-theme
+[2020-10-06 15:43:00.982] [sharedprocess] [info] Starting to clean up unused language packs.
