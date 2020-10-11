@@ -1,24 +1,3 @@
-2020/10/07-10:52:10.621 2246 Reusing MANIFEST /home/trungtin/.config/Notion/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
-2020/10/07-10:52:10.622 2246 Recovering log #100
-2020/10/07-10:52:10.634 2246 Reusing old log /home/trungtin/.config/Notion/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/000100.log 
-2020/10/07-10:52:13.027 22b2 Level-0 table #112: started
-2020/10/07-10:52:13.045 22b2 Level-0 table #112: 1497446 bytes OK
-2020/10/07-10:52:13.049 22b2 Delete type=0 #100
-2020/10/07-10:52:42.389 22b2 Compacting 1@1 + 7@2 files
-2020/10/07-10:52:42.420 22b2 Generated table #113@1: 8177 keys, 2173396 bytes
-2020/10/07-10:52:42.451 22b2 Generated table #114@1: 7394 keys, 2172617 bytes
-2020/10/07-10:52:42.492 22b2 Generated table #115@1: 17183 keys, 2194237 bytes
-2020/10/07-10:52:42.552 22b2 Generated table #116@1: 26308 keys, 2254951 bytes
-2020/10/07-10:52:42.607 22b2 Generated table #117@1: 24547 keys, 2262734 bytes
-2020/10/07-10:52:42.667 22b2 Generated table #118@1: 23474 keys, 2267343 bytes
-2020/10/07-10:52:42.690 22b2 Generated table #119@1: 9378 keys, 679548 bytes
-2020/10/07-10:52:42.690 22b2 Compacted 1@1 + 7@2 files => 14004826 bytes
-2020/10/07-10:52:42.693 22b2 compacted to: files[ 0 0 7 0 0 0 0 ]
-2020/10/07-10:52:42.693 22b2 Delete type=2 #108
-2020/10/07-10:52:42.693 22b2 Delete type=2 #105
-2020/10/07-10:52:42.693 22b2 Delete type=2 #107
-2020/10/07-10:52:42.694 22b2 Delete type=2 #106
-2020/10/07-10:52:42.694 22b2 Delete type=2 #112
-2020/10/07-10:52:42.694 22b2 Delete type=2 #104
-2020/10/07-10:52:42.695 22b2 Delete type=2 #109
-2020/10/07-10:52:42.695 22b2 Delete type=2 #103
+2020/10/10-09:20:39.117 1851 Reusing MANIFEST /home/trungtin/.config/Notion/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/10-09:20:39.117 1851 Recovering log #170
+2020/10/10-09:20:39.122 1851 Reusing old log /home/trungtin/.config/Notion/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/000170.log 

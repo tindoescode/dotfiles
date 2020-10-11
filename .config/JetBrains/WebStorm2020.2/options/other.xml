@@ -1,0 +1,22 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node">
+      <version-cache version="14.13.1" last-modified="1602112328000" />
+    </local-interpreter>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GeneralSettings.initiallyConfigured" value="true" />
+    <property name="InstalledPluginsSearchHistory" value="material&#10;/tag:Keymap&#10;mater" />
+    <property name="MTUILite.version" value="4.0" />
+    <property name="MarketplacePluginsSearchHistory" value="Material&#10;Ma&#10;/tag:Keymap&#10;mater" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="SettingsSearchHistory" value="material&#10;main setting&#10;mater" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="WS-202.7660.23-34323508ffdf9ce67ef0ad59f42f71f673909094858941c349b6e2ae644baa8d" />
+    <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="evlsprt3.202" value="12" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.9.5" />
+  </component>
+</application>

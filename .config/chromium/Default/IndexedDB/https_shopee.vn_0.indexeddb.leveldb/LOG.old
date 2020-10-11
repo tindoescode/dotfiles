@@ -1,0 +1,25 @@
+2020/10/10-21:44:38.039 5ae2 Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/https_shopee.vn_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/10-21:44:38.039 5ae2 Recovering log #71
+2020/10/10-21:44:38.039 5ae2 Reusing old log /home/trungtin/.config/chromium/Default/IndexedDB/https_shopee.vn_0.indexeddb.leveldb/000071.log 
+2020/10/10-21:49:53.364 5d80 Level-0 table #76: started
+2020/10/10-21:49:53.400 5d80 Level-0 table #76: 963541 bytes OK
+2020/10/10-21:49:53.404 5d80 Delete type=0 #71
+2020/10/10-21:50:12.758 5dd1 Level-0 table #78: started
+2020/10/10-21:50:12.767 5dd1 Level-0 table #78: 123346 bytes OK
+2020/10/10-21:50:12.771 5dd1 Delete type=0 #75
+2020/10/10-21:50:12.772 5dd1 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x08\x01\x02\x01\x11\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00m\x00i\x00n\x00i\x00-\x00r\x00o\x00o\x00t' @ 55290 : 1
+2020/10/10-21:50:12.772 5dd1 Compacting 1@0 + 1@1 files
+2020/10/10-21:50:12.796 5dd1 Generated table #79@0: 2534 keys, 33286 bytes
+2020/10/10-21:50:12.796 5dd1 Compacted 1@0 + 1@1 files => 33286 bytes
+2020/10/10-21:50:12.799 5dd1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/10/10-21:50:12.799 5dd1 Delete type=2 #78
+2020/10/10-21:50:12.799 5dd1 Delete type=2 #76
+2020/10/10-21:50:12.799 5dd1 Manual compaction at level-0 from '\x00\x08\x01\x02\x01\x11\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00m\x00i\x00n\x00i\x00-\x00r\x00o\x00o\x00t' @ 55290 : 1 .. (end); will stop at (end)
+2020/10/10-21:50:12.799 5dd1 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x02\x01\x11\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00m\x00i\x00n\x00i\x00-\x00r\x00o\x00o\x00t' @ 55386 : 1
+2020/10/10-21:50:12.799 5dd1 Compacting 1@1 + 1@2 files
+2020/10/10-21:50:12.804 5dd1 Generated table #80@1: 1789 keys, 45554 bytes
+2020/10/10-21:50:12.804 5dd1 Compacted 1@1 + 1@2 files => 45554 bytes
+2020/10/10-21:50:12.806 5dd1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/10-21:50:12.807 5dd1 Delete type=2 #79
+2020/10/10-21:50:12.807 5dd1 Delete type=2 #73
+2020/10/10-21:50:12.807 5dd1 Manual compaction at level-1 from '\x00\x08\x01\x02\x01\x11\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00m\x00i\x00n\x00i\x00-\x00r\x00o\x00o\x00t' @ 55386 : 1 .. (end); will stop at (end)

@@ -1,0 +1,59 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/WebstormProjects/untitled">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1iaOWxWX9CIIyHbE5LR1lE8edlj">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-202.7660.23" />
+              <option name="buildTimestamp" value="1601476447356" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1602142272924" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/WebstormProjects/untitled1">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1iaOk4AekVuJ5ojU7q6AXkUqbON">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-203.4449.5" />
+              <option name="buildTimestamp" value="1601965146904" />
+              <option name="eap" value="true" />
+              <frame x="260" y="40" width="1400" height="1000" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1602143986925" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/WebstormProjects/untitled2">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1iaS0U0HFnuMs3yHuAoCs4RzmIz">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-203.4449.5" />
+              <option name="buildTimestamp" value="1601965178844" />
+              <option name="eap" value="true" />
+              <frame x="7" y="37" width="1906" height="1036" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1602145362801" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Coding/prj-cmp-databinding-final">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1iaUqLyBNv0btIHnq3WhgIC58vi">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-203.4449.5" />
+              <option name="buildTimestamp" value="1601965158037" />
+              <option name="eap" value="true" />
+              <frame x="1001" y="579" width="912" height="494" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1602146843924" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/WebstormProjects" />
+  </component>
+</application>

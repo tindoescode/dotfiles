@@ -1,0 +1,5 @@
+2020/10/06-15:32:41.049 15ab Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/https_carbon.now.sh_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/06-15:33:45.418 976 Level-0 table #5: started
+2020/10/06-15:33:45.421 976 Level-0 table #5: 1148 bytes OK
+2020/10/06-15:33:45.423 976 Delete type=0 #3
+2020/10/06-15:33:45.423 976 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

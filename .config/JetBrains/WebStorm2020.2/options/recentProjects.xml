@@ -1,0 +1,38 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/WebstormProjects/untitled">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1iaOWxWX9CIIyHbE5LR1lE8edlj">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-202.7660.23" />
+              <option name="buildTimestamp" value="1601476447356" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1602142272924" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/WebstormProjects/untitled1">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1iaOk4AekVuJ5ojU7q6AXkUqbON">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-202.7660.23" />
+              <option name="buildTimestamp" value="1601476471776" />
+              <frame x="260" y="40" width="1400" height="1000" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1602142896909" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/WebstormProjects" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/WebstormProjects/untitled1" />
+        <option value="$USER_HOME$/WebstormProjects/untitled" />
+      </list>
+    </option>
+  </component>
+</application>

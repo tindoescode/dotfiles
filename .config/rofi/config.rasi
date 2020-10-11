@@ -1,0 +1,4 @@
+configuration {
+	theme: "/home/trungtin/.local/share/rofi/themes/slate.rasi";
+}
+@import "/home/trungtin/.local/share/rofi/themes/arc-red-dark.rasi"

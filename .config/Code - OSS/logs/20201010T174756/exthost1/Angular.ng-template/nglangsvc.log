@@ -1,0 +1,82 @@
+Info 0    [17:49:19.591] Format host information updated
+Info 1    [17:49:19.591] reload projects.
+Info 2    [17:49:19.591] Before ensureProjectForOpenFiles:
+Info 3    [17:49:19.592] After ensureProjectForOpenFiles:
+Info 4    [17:49:19.592] Host file extension mappings updated
+Info 5    [17:49:19.616] Search path: /home/trungtin/Coding/services-final/src/app
+Info 6    [17:49:19.618] For info: /home/trungtin/Coding/services-final/src/app/app.component.html :: Config file name: /home/trungtin/Coding/services-final/tsconfig.json
+Info 7    [17:49:19.618] Opened configuration file /home/trungtin/Coding/services-final/tsconfig.json
+Info 8    [17:49:19.653] Config: /home/trungtin/Coding/services-final/tsconfig.json : {
+ "rootNames": [
+  "/home/trungtin/Coding/services-final/e2e/src/app.e2e-spec.ts",
+  "/home/trungtin/Coding/services-final/e2e/src/app.po.ts",
+  "/home/trungtin/Coding/services-final/src/main.ts",
+  "/home/trungtin/Coding/services-final/src/polyfills.ts",
+  "/home/trungtin/Coding/services-final/src/test.ts",
+  "/home/trungtin/Coding/services-final/src/app/accounts.service.ts",
+  "/home/trungtin/Coding/services-final/src/app/app.component.spec.ts",
+  "/home/trungtin/Coding/services-final/src/app/app.component.ts",
+  "/home/trungtin/Coding/services-final/src/app/app.module.ts",
+  "/home/trungtin/Coding/services-final/src/app/logging.service.ts",
+  "/home/trungtin/Coding/services-final/src/app/account/account.component.ts",
+  "/home/trungtin/Coding/services-final/src/app/new-account/new-account.component.ts",
+  "/home/trungtin/Coding/services-final/src/environments/environment.prod.ts",
+  "/home/trungtin/Coding/services-final/src/environments/environment.ts"
+ ],
+ "options": {
+  "baseUrl": "/home/trungtin/Coding/services-final",
+  "outDir": "/home/trungtin/Coding/services-final/dist/out-tsc",
+  "sourceMap": true,
+  "declaration": false,
+  "moduleResolution": 2,
+  "emitDecoratorMetadata": true,
+  "experimentalDecorators": true,
+  "target": 1,
+  "typeRoots": [
+   "/home/trungtin/Coding/services-final/node_modules/@types"
+  ],
+  "lib": [
+   "lib.es2017.d.ts",
+   "lib.dom.d.ts"
+  ],
+  "configFilePath": "/home/trungtin/Coding/services-final/tsconfig.json"
+ }
+}
+Info 9    [17:49:19.658] Loading global plugin @angular/language-service
+Info 10   [17:49:19.658] Enabling plugin @angular/language-service from candidate paths: /home/trungtin/.vscode-oss/extensions/angular.ng-template-0.1001.0/server/node_modules/@angular/language-service/bundles/language-service.js,/home/trungtin/.vscode-oss/extensions/angular.ng-template-0.1001.0/node_modules/typescript/lib/tsserverlibrary.js/../../..
+Info 11   [17:49:19.658] Loading @angular/language-service from /home/trungtin/.vscode-oss/extensions/angular.ng-template-0.1001.0/server/node_modules/@angular/language-service/bundles/language-service.js (resolved to /home/trungtin/.vscode-oss/extensions/angular.ng-template-0.1001.0/server/node_modules/@angular/language-service/bundles/language-service.js/node_modules)
+Info 12   [17:49:19.775] Plugin validation succeded
+Info 13   [17:49:19.783] Starting updateGraphWorker: Project: /home/trungtin/Coding/services-final/tsconfig.json
+Info 14   [17:49:21.503] Finishing updateGraphWorker: Project: /home/trungtin/Coding/services-final/tsconfig.json Version: 1 structureChanged: true Elapsed: 1720ms
+Info 15   [17:49:21.503] Project '/home/trungtin/Coding/services-final/tsconfig.json' (Configured)
+Info 16   [17:49:21.503] 	Files (34)
+
+Info 17   [17:49:21.503] -----------------------------------------------
+Info 18   [17:49:21.505] Starting updateGraphWorker: Project: /home/trungtin/Coding/services-final/tsconfig.json
+Info 19   [17:49:21.506] Finishing updateGraphWorker: Project: /home/trungtin/Coding/services-final/tsconfig.json Version: 2 structureChanged: false Elapsed: 1ms
+Info 20   [17:49:21.509] Disabling language service for /home/trungtin/Coding/services-final/tsconfig.json because it is not an Angular project ('@angular/core/core.d.ts' could not be found). If you believe you are seeing this message in error, please reinstall the packages in your package.json.
+Info 21   [17:49:21.509] Loading global plugin @angular/language-service
+Info 22   [17:49:21.509] Enabling plugin @angular/language-service from candidate paths: /home/trungtin/.vscode-oss/extensions/angular.ng-template-0.1001.0/server/node_modules/@angular/language-service/bundles/language-service.js,/home/trungtin/.vscode-oss/extensions/angular.ng-template-0.1001.0/node_modules/typescript/lib/tsserverlibrary.js/../../..
+Info 23   [17:49:21.510] Loading @angular/language-service from /home/trungtin/.vscode-oss/extensions/angular.ng-template-0.1001.0/server/node_modules/@angular/language-service/bundles/language-service.js (resolved to /home/trungtin/.vscode-oss/extensions/angular.ng-template-0.1001.0/server/node_modules/@angular/language-service/bundles/language-service.js/node_modules)
+Info 24   [17:49:21.519] Plugin validation succeded
+Info 25   [17:49:21.520] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 26   [17:49:22.99] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 579ms
+Info 27   [17:49:22.99] Project '/dev/null/inferredProject1*' (Inferred)
+Info 28   [17:49:22.99] 	Files (6)
+
+Info 29   [17:49:22.99] -----------------------------------------------
+Info 30   [17:49:28.329] Search path: /home/trungtin/Coding/services-final/src/app
+Info 31   [17:49:28.329] For info: /home/trungtin/Coding/services-final/src/app/app.component.spec.ts :: Config file name: /home/trungtin/Coding/services-final/tsconfig.json
+Info 32   [17:49:28.329] `remove Project::
+Info 33   [17:49:28.329] Project '/dev/null/inferredProject1*' (Inferred)
+Info 34   [17:49:28.329] 	Files (6)
+
+Info 35   [17:49:28.329] -----------------------------------------------
+Info 36   [17:49:30.718] Search path: /home/trungtin/Coding/services-final/src/app
+Info 37   [17:49:30.718] For info: /home/trungtin/Coding/services-final/src/app/accounts.service.ts :: Config file name: /home/trungtin/Coding/services-final/tsconfig.json
+Info 38   [17:49:30.718] Starting updateGraphWorker: Project: /home/trungtin/Coding/services-final/tsconfig.json
+Info 39   [17:49:30.742] Finishing updateGraphWorker: Project: /home/trungtin/Coding/services-final/tsconfig.json Version: 3 structureChanged: true Elapsed: 24ms
+Info 40   [17:49:30.742] Project '/home/trungtin/Coding/services-final/tsconfig.json' (Configured)
+Info 41   [17:49:30.742] 	Files (22)
+
+Info 42   [17:49:30.743] -----------------------------------------------

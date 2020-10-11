@@ -1,0 +1,15 @@
+2020/10/07-16:20:29.843 cca6 Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/07-16:20:29.843 cca6 Recovering log #4
+2020/10/07-16:20:29.843 cca6 Reusing old log /home/trungtin/.config/chromium/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/000004.log 
+2020/10/07-16:20:40.703 a240 Level-0 table #8: started
+2020/10/07-16:20:40.708 a240 Level-0 table #8: 1819 bytes OK
+2020/10/07-16:20:40.712 a240 Delete type=0 #4
+2020/10/07-16:20:40.712 a240 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/07-16:20:40.712 a240 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 187 : 1
+2020/10/07-16:20:40.712 a240 Compacting 1@1 + 1@2 files
+2020/10/07-16:20:40.716 a240 Generated table #9@1: 52 keys, 1160 bytes
+2020/10/07-16:20:40.716 a240 Compacted 1@1 + 1@2 files => 1160 bytes
+2020/10/07-16:20:40.718 a240 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/07-16:20:40.719 a240 Delete type=2 #8
+2020/10/07-16:20:40.719 a240 Delete type=2 #5
+2020/10/07-16:20:40.719 a240 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 187 : 1 .. (end); will stop at (end)

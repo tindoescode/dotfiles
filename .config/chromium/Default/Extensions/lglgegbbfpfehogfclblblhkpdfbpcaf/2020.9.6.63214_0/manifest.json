@@ -1,0 +1,36 @@
+{
+   "app": {
+      "display_mode": "standalone",
+      "icon_color": "#EE5354",
+      "launch": {
+         "web_url": "https://fireship.io/"
+      },
+      "linked_icons": [ {
+         "size": 64,
+         "url": "https://fireship.io/img/favicon.png"
+      }, {
+         "size": 512,
+         "url": "https://fireship.io/img/logo-512.png"
+      } ],
+      "theme_color": "rgba(69,78,86,1)"
+   },
+   "description": "Training and Consulting for App Developers | Full Courses, Video Lessons, Chat, and More",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "512": "icons/512.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "/4GCA7aPP3A/HnFV4/tHIHekVJCmcBLO/s9cQAwQJ5Y=",
+   "name": "Fireship.io",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://fireship.io/*" ],
+         "title": "Fireship.io"
+      }
+   },
+   "version": "2020.9.6.63214"
+}

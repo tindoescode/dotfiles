@@ -1,0 +1,15 @@
+2020/10/10-21:35:01.908 54cd Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/https_tiki.vn_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/10-21:35:01.909 54cd Recovering log #23
+2020/10/10-21:35:01.909 54cd Reusing old log /home/trungtin/.config/chromium/Default/IndexedDB/https_tiki.vn_0.indexeddb.leveldb/000023.log 
+2020/10/10-21:35:15.866 544f Level-0 table #28: started
+2020/10/10-21:35:15.870 544f Level-0 table #28: 15097 bytes OK
+2020/10/10-21:35:15.873 544f Delete type=0 #23
+2020/10/10-21:35:15.874 5529 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/10-21:35:15.874 5529 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x05\x03\x01\x03\x00k\x00e\x00y' @ 6473 : 0
+2020/10/10-21:35:15.874 5529 Compacting 1@1 + 1@2 files
+2020/10/10-21:35:15.877 5529 Generated table #29@1: 601 keys, 51622 bytes
+2020/10/10-21:35:15.877 5529 Compacted 1@1 + 1@2 files => 51622 bytes
+2020/10/10-21:35:15.881 5529 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/10-21:35:15.881 5529 Delete type=2 #25
+2020/10/10-21:35:15.881 5529 Delete type=2 #28
+2020/10/10-21:35:15.881 5529 Manual compaction at level-1 from '\x00\x02\x05\x03\x01\x03\x00k\x00e\x00y' @ 6473 : 0 .. (end); will stop at (end)

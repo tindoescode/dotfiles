@@ -1,0 +1,8 @@
+2020/10/11-11:48:53.864 b0a Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/11-11:48:53.864 b0a Recovering log #603
+2020/10/11-11:48:53.864 b0a Reusing old log /home/trungtin/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000603.log 
+2020/10/11-11:49:53.033 bda Level-0 table #607: started
+2020/10/11-11:49:53.033 bda Level-0 table #607: 0 bytes OK
+2020/10/11-11:49:53.037 bda Delete type=0 #603
+2020/10/11-11:49:53.038 bda Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/11-11:49:53.038 bda Manual compaction at level-1 from (begin) .. (end); will stop at (end)

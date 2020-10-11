@@ -2,6 +2,9 @@
     "telemetry.machineId": "0c5cc64a6d87201a0519c66b4ebcbd89049d94b04a940be376b52629a4c76c25",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/trungtin/Coding/services-final",
+            "file:///home/trungtin/Coding/prj-cmp-databinding-final",
+            "file:///home/trungtin/.config/desknamer",
             {
                 "id": "e40a4c2347d7be5790d85efcfc6872b2",
                 "configURIPath": "file:///home/trungtin/Coding/test.code-workspace"
@@ -20,6 +23,9 @@
             "file:///home/trungtin/Coding/angular-tour-of-heroes"
         ],
         "files2": [
+            "file:///home/trungtin/Coding/services-final/.editorconfig",
+            "file:///home/trungtin/Coding/prj-cmp-databinding-final/how-to-use.txt",
+            "file:///home/trungtin/.config/desknamer/desknamer.json",
             "file:///home/trungtin/.config/bspwm/receptacles/induce_rules",
             "file:///home/trungtin/Coding/angular-tour-of-heroes/src/app/mock-heroes.ts",
             "file:///home/trungtin/Coding/angular-tour-of-heroes/src/app/hero.ts",
@@ -60,11 +66,44 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "fsPath": "/home/trungtin/Coding/services-final",
+                                        "external": "file:///home/trungtin/Coding/services-final",
+                                        "path": "/home/trungtin/Coding/services-final",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Coding/services-final"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/trungtin/Coding/prj-cmp-databinding-final",
+                                        "path": "/home/trungtin/Coding/prj-cmp-databinding-final",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Coding/prj-cmp-databinding-final"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/trungtin/.config/desknamer",
+                                        "path": "/home/trungtin/.config/desknamer",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/desknamer"
                                 },
                                 {
                                     "id": "openRecentWorkspace",
@@ -142,6 +181,39 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/trungtin/Coding/services-final/.editorconfig",
+                                        "path": "/home/trungtin/Coding/services-final/.editorconfig",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Coding/services-final/.editorconfig"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/trungtin/Coding/prj-cmp-databinding-final/how-to-use.txt",
+                                        "path": "/home/trungtin/Coding/prj-cmp-databinding-final/how-to-use.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Coding/prj-cmp-databinding-final/how-to-use.txt"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/trungtin/.config/desknamer/desknamer.json",
+                                        "path": "/home/trungtin/.config/desknamer/desknamer.json",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/desknamer/desknamer.json"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -300,8 +372,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -501,7 +572,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -695,8 +767,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1569,13 +1640,14 @@
     "themeBackground": "#282c34",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/trungtin/.config/Code - OSS/Backups/1602047842998",
+            "folder": "file:///home/trungtin/Coding/services-final",
+            "backupPath": "/home/trungtin/.config/Code - OSS/Backups/cee9daf2b0da163d9405e6c9283925a7",
             "uiState": {
                 "mode": 1,
-                "x": 1062,
+                "x": 7,
                 "y": 37,
-                "width": 819,
-                "height": 547
+                "width": 987,
+                "height": 1036
             }
         },
         "openedWindows": []

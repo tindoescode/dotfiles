@@ -1,0 +1,37 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node">
+      <version-cache version="14.13.1" last-modified="1602112328000" />
+    </local-interpreter>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Microsoft Sans Serif" />
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="16" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GeneralSettings.initiallyConfigured" value="true" />
+    <property name="InstalledPluginsSearchHistory" value="vim&#10;vi&#10;v&#10;VIM emu&#10;VIM em" />
+    <property name="KEYMAP" value="new file&#10;comment" />
+    <property name="MTUILite.version" value="4.0" />
+    <property name="MarketplacePluginsSearchHistory" value="/tag:Keymap&#10;IDE&#10;I&#10;vim&#10;theme" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="SettingsSearchHistory" value="auto save&#10;key&#10;Vim e&#10;VIM&#10;IDE" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="WS-203.4449.5-71851ad673cfd4050cbf6e009cc4c0afdb4e4025d767fd94eb2c60a90e54835a" />
+    <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="evlsprt3.202" value="12" />
+    <property name="evlsprt3.WS-203.4449.5" value="17" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Coding/prj-cmp-databinding-final" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ideavim.statistics.timestamp" value="1602145872372" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Coding/prj-cmp-databinding-final" />
+    <property name="org.intellij.images.editor.actions.BackgroundImageDialog#recent" value="" />
+    <property name="selected.color.option.type" value="TODO_DEFAULT_ATTRIBUTES" />
+    <property name="shared.index.infrastructure.prop" value="4" />
+    <property name="stats.collector.latest.sending.timestamp" value="1602149567423" />
+    <property name="stats.collector.today.sent.data.size" value="238958" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="4.0.3" />
+  </component>
+</application>

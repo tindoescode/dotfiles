@@ -1,0 +1,25 @@
+{
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_globs": [ "*.pdf" ],
+      "js": [ "content.js" ],
+      "matches": [ "http://*/*", "https://*/*", "ftp://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Change the scroll speed",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "32": "icon_32.png",
+      "48": "icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgqHGHFJj8+jBEJJdHmIpucL4ADgSqlkw7BDwlm/UcR/rcz/S4Qu5b2Jl2tXVh8OCkjL4MV8jns5Ps0cM9yEHUqvBdYU3M5XqMbzb1hP5ehI4KOvuawZqztXTspe2RXmYUOENVcNH0Q2A2vyOTNlhUUAZs6fE6il7viunNqoG4LmAS1RaMrxHYjoeiD7YiGZDlQbPIhrx3EbOyygP2QG8d5EGEX64+AnIplQJzwI5DUiS6Cb9/ja+F+eWhYB82W8RwIK+d4ektp8uLs3o5/39IpRMUIjE1rLnfT8K1ZNdrHa/0kc+mqKOHDYwNlga96wUcwGcRXi+KlF6rsLJD+LJYwIDAQAB",
+   "manifest_version": 2,
+   "name": "Scroll Speed",
+   "permissions": [ "storage", "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1"
+}

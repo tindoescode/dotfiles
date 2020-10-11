@@ -1,0 +1,8 @@
+2020/10/10-11:58:55.388 2044 Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/10-11:58:55.388 2044 Recovering log #28
+2020/10/10-11:58:55.388 2044 Reusing old log /home/trungtin/.config/chromium/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000028.log 
+2020/10/10-11:59:59.526 1f6c Level-0 table #33: started
+2020/10/10-11:59:59.527 1f6c Level-0 table #33: 0 bytes OK
+2020/10/10-11:59:59.532 1f6c Delete type=0 #28
+2020/10/10-11:59:59.532 1f6c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/10-11:59:59.533 1f6c Manual compaction at level-1 from (begin) .. (end); will stop at (end)

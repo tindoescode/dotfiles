@@ -2,7 +2,7 @@
 x-scheme-handler/http=exo-web-browser.desktop;chromium.desktop;
 x-scheme-handler/https=exo-web-browser.desktop;chromium.desktop;
 application/xhtml+xml=chromium.desktop;
-text/html=chromium.desktop;
+text/html=chromium.desktop;nvim.desktop;
 image/bmp=feh.desktop;
 image/gif=feh.desktop;
 image/jpg=feh.desktop;
@@ -26,6 +26,7 @@ application/pdf=org.gnome.Evince.desktop;
 text/plain=nvim.desktop;org.gnome.FileRoller.desktop;
 application/x-shellscript=org.gnome.Builder.desktop;
 video/x-matroska=vlc.desktop;
+application/x-mobipocket-ebook=com.github.babluboy.bookworm.desktop;FBReader.desktop;
 
 [Default Applications]
 x-scheme-handler/http=chromium.desktop
@@ -50,3 +51,6 @@ image/x-portable-pixmap=feh.desktop
 image/x-tga=feh.desktop
 image/x-xbitmap=feh.desktop
 video/mp4=vlc.desktop
+x-scheme-handler/about=chromium.desktop
+x-scheme-handler/unknown=chromium.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop

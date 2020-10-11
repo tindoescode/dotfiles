@@ -1,0 +1,10 @@
+#!/bin/sh
+
+killall bash
+killall sxhkd 
+killall picom 
+killall dunst
+killall python
+killall wallblur.sh
+killall bspswallow
+libinput-gestures-setup stop

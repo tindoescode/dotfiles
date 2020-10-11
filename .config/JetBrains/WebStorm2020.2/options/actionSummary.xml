@@ -1,0 +1,48 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$SelectAll">
+        <ActionSummary times="1" last="1602142486595" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="1" last="1602142544059" />
+      </entry>
+      <entry key="EditorCut">
+        <ActionSummary times="1" last="1602142486726" />
+      </entry>
+      <entry key="NewProject">
+        <ActionSummary times="1" last="1602142369579" />
+      </entry>
+      <entry key="Print">
+        <ActionSummary times="1" last="1602142346122" />
+      </entry>
+      <entry key="ShowNavBar">
+        <ActionSummary times="1" last="1602142348551" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="4" last="1602142913771" />
+      </entry>
+      <entry key="ViewStatusBar">
+        <ActionSummary times="2" last="1602142639445" />
+      </entry>
+      <entry key="ViewToolBar">
+        <ActionSummary times="1" last="1602142649260" />
+      </entry>
+      <entry key="com.intellij.ide.plugins.newui.ListPluginComponent$3">
+        <ActionSummary times="2" last="1602142541010" />
+      </entry>
+      <entry key="com.intellij.ide.plugins.newui.ListPluginComponent$ButtonAnAction">
+        <ActionSummary times="1" last="1602142557911" />
+      </entry>
+      <entry key="com.intellij.ide.plugins.newui.TabbedPaneHeaderComponent$3">
+        <ActionSummary times="2" last="1602142329406" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$6">
+        <ActionSummary times="2" last="1602140257221" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$2">
+        <ActionSummary times="1" last="1602140195479" />
+      </entry>
+    </data>
+  </component>
+</application>

@@ -1,0 +1,15 @@
+2020/10/06-18:28:43.728 49f3 Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/06-18:28:43.728 49f3 Recovering log #4
+2020/10/06-18:28:43.728 49f3 Reusing old log /home/trungtin/.config/chromium/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/000004.log 
+2020/10/06-18:28:47.592 976 Level-0 table #8: started
+2020/10/06-18:28:47.594 976 Level-0 table #8: 704 bytes OK
+2020/10/06-18:28:47.597 976 Delete type=0 #4
+2020/10/06-18:28:47.597 976 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/06-18:28:47.597 976 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x1f\x03\x00`\x9f*\xdeOwB\x00\x01\x14\x00T\x00E\x00X\x001\x00T\x00P\x00C\x00D\x00Q\x003\x001\x00P\x00W\x000\x00J\x00E\x00B\x003\x00K\x00S' @ 80 : 1
+2020/10/06-18:28:47.597 976 Compacting 1@1 + 1@2 files
+2020/10/06-18:28:47.600 976 Generated table #9@1: 26 keys, 749 bytes
+2020/10/06-18:28:47.600 976 Compacted 1@1 + 1@2 files => 749 bytes
+2020/10/06-18:28:47.602 976 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/06-18:28:47.603 976 Delete type=2 #8
+2020/10/06-18:28:47.603 976 Delete type=2 #5
+2020/10/06-18:28:47.603 976 Manual compaction at level-1 from '\x00\x01\x01\x1f\x03\x00`\x9f*\xdeOwB\x00\x01\x14\x00T\x00E\x00X\x001\x00T\x00P\x00C\x00D\x00Q\x003\x001\x00P\x00W\x000\x00J\x00E\x00B\x003\x00K\x00S' @ 80 : 1 .. (end); will stop at (end)

@@ -1,0 +1,15 @@
+2020/10/11-11:45:48.615 72f Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/https_shopee.vn_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/11-11:45:48.615 72f Recovering log #77
+2020/10/11-11:45:48.615 72f Reusing old log /home/trungtin/.config/chromium/Default/IndexedDB/https_shopee.vn_0.indexeddb.leveldb/000077.log 
+2020/10/11-11:50:00.749 bda Level-0 table #83: started
+2020/10/11-11:50:00.763 bda Level-0 table #83: 413259 bytes OK
+2020/10/11-11:50:00.766 bda Delete type=0 #77
+2020/10/11-11:50:00.766 bda Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/11-11:50:00.767 bda Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x02\x01\x11\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00m\x00i\x00n\x00i\x00-\x00r\x00o\x00o\x00t' @ 55794 : 1
+2020/10/11-11:50:00.767 bda Compacting 1@1 + 1@2 files
+2020/10/11-11:50:00.773 bda Generated table #84@1: 1857 keys, 47008 bytes
+2020/10/11-11:50:00.773 bda Compacted 1@1 + 1@2 files => 47008 bytes
+2020/10/11-11:50:00.777 bda compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/11-11:50:00.778 bda Delete type=2 #83
+2020/10/11-11:50:00.778 bda Delete type=2 #80
+2020/10/11-11:50:00.778 bda Manual compaction at level-1 from '\x00\x08\x01\x02\x01\x11\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00m\x00i\x00n\x00i\x00-\x00r\x00o\x00o\x00t' @ 55794 : 1 .. (end); will stop at (end)

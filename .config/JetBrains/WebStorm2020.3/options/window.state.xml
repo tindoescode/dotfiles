@@ -1,0 +1,27 @@
+<application>
+  <component name="DimensionService">
+    <location key="find.popup.0.0.1920.1080" x="647" y="73" />
+    <size key="find.popup.0.0.1920.1080" width="626" height="933" />
+  </component>
+  <component name="WindowManager">
+    <frame x="7" y="37" width="1387" height="1036" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+    </layout>
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="748" y="328" width="424" height="454" key="FileChooserDialogImpl" timestamp="1602145385418">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="748" y="328" width="424" height="454" key="FileChooserDialogImpl/0.0.1920.1080" timestamp="1602145385418" />
+    <state x="965" y="451" key="WELCOME_SCREEN" timestamp="1602140197621">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="965" y="451" key="WELCOME_SCREEN/0.0.1920.1080" timestamp="1602140197621" />
+  </component>
+</application>

@@ -64,7 +64,7 @@ endif
 let g:deoplete#enable_at_startup = 1
 
 Plug 'scrooloose/nerdcommenter'
-"Plug 'turbio/bracey.vim'
+Plug 'turbio/bracey.vim'
 Plug 'chrisbra/Colorizer'
 Plug 'VundleVim/Vundle.vim'
 Plug 'patstockwell/vim-monokai-tasty'
@@ -100,8 +100,11 @@ let g:AutoPairsFlyMode = 0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Use spaces instead of tabs
-set expandtab
+" Use tabs instead of spaces
+set noexpandtab
+set copyindent
+set preserveindent
+set softtabstop=0
 
 " Be smart when using tabs ;)
 set smarttab

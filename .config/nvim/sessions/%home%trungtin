@@ -7,30 +7,60 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +1 .zshrc
-badd +14 .bashrc
-badd +4 .config/bspwm/terminals
-badd +1 .config/bspwm/noswallow
-badd +39 .config/bspwm/bspwmrc
+badd +0 /etc/bluetooth/main.conf
+badd +161 .config/polybar/source/typicons/config.ini
+badd +23 .config/bspwm/bspwmrc
+badd +759 .config/ranger/rc.conf
+badd +5 /etc/NetworkManager/conf.d/dns.conf
+badd +1 /etc/NetworkManager/conf.d/dns-servers.conf
+badd +1 /run/NetworkManager/no-stub-resolv.conf
+badd +1 /etc/resolv.conf
+badd +1 .config/polybar/source/typicons/config
+badd +56 .config/polybar/source/typicons/colors.ini
+badd +17 .scripts/toggle-mode
+badd +1 .scripts/powersave_mode
+badd +171 .config/polybar/source/typicons/user_modules.ini
+badd +1 .config/polybar/source/typicons/modules.ini
+badd +1 .config/polybar/scripts/windows
+badd +3 .config/polybar/scripts/lupdates
+badd +117 .config/polybar/scripts/checkupdates
+badd +431 .config/polybar/source/typicons/bars.ini
+badd +21 pkglist.txt
+badd +29 /usr/share/dbus-1/system.d/bluetooth.conf
+badd +3 .gitignore
+badd +72 .zshrc
+badd +15 .config/sxhkd/sxhkdrc
+badd +1 .local/share/rofi/themes/slate.rasi
+badd +1 .config/rofi/config
+badd +83 .config/cava/config
+badd +1 etc/bluetooth/main.conf
+badd +1 etc/modprobe.d/disable_autosuspend.conf
+badd +56 /etc/pulse/system.pa
+badd +1 /etc/profile
+badd +1 .xinitrc
+badd +1 /var/lib/gdm/.config/pulse/client.conf
+badd +1 Downloads/Compressed/gdm3theme-blur-0.0.2/SetAsWallpaper
+badd +14 test.sh
+badd +75 .config/nvim/init.vim
+badd +7 .config/desknamer/desknamer.json
+badd +1 .config/desknamer/desktop.blacklist
+badd +3 .config/bspwm/killscript
+badd +9 Coding/my-app/src/index.html
 badd +1 ../sxhkd/sxhkdrc
 badd +53 .scripts/pacman.sh
 badd +1 .scripts/colortheme.sh
 badd +1 Coding/angular-film/src/styles.scss
 badd +1 Documents/Chặng\ đường\ 5\ năm\ đàn\ ông
-badd +160 .config/sxhkd/sxhkdrc
 badd +6 Coding/angular-film/src/assets/_colours.scss
 badd +1 .fehbg
 badd +1 Videos/\[FreeCourseSite.com]\ Udemy\ -\ Angular\ -\ The\ Complete\ Guide\ (2020\ Edition)/2.\ The\ Basics/5.\ Understanding\ the\ Role\ of\ AppModule\ and\ Component\ Declaration.srt
 badd +6 _colours.scss
-badd +1 .config/nvim/init.vim
-badd +233 .config/polybar/source/typicons/config.ini
 badd +165 .config/polybar/config.ini
-badd +12 Coding/my-app/src/index.html
 badd +27 Coding/my-app/angular.json
 argglobal
 %argdel
 $argadd .config/nvim/init.vim
-edit .zshrc
+edit /etc/bluetooth/main.conf
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -49,11 +79,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 110 - ((16 * winheight(0) + 10) / 21)
+let s:l = 1 - ((0 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-110
+1
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'

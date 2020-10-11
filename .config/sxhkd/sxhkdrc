@@ -12,11 +12,11 @@ super + shift + c
 
 # program launcher
 super + d
-	rofi -show run
+	~/.scripts/noswallow_rofi
 
 # file manager
 super + e
-    nautilus
+    kitty --name Terminal -e ranger
 
 # make sxhkd reload its configuration files:
 super + Escape

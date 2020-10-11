@@ -1,0 +1,117 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search />
+      <history-cmd>
+        <entry>help</entry>
+        <entry>q</entry>
+        <entry>w</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Coding/prj-cmp-databinding-final/src/app/shared/ingredient.model.ts" timestamp="1602147067324">
+        <mark key="'" line="1" column="0" />
+        <mark key="[" line="1" column="29" />
+        <mark key="]" line="1" column="39" />
+        <mark key="." line="1" column="38" />
+        <mark key="^" line="1" column="39" />
+      </file>
+      <file name="$USER_HOME$/Coding/prj-cmp-databinding-final/src/karma.conf.js" timestamp="1602148172035">
+        <mark key="'" line="27" column="0" />
+        <mark key="[" line="9" column="14" />
+        <mark key="]" line="9" column="14" />
+        <mark key="." line="9" column="13" />
+        <mark key="^" line="9" column="14" />
+      </file>
+      <file name="$USER_HOME$/Coding/prj-cmp-databinding-final/src/app/shared/dropdown.directive.ts" timestamp="1602149182027">
+        <mark key="[" line="6" column="21" />
+        <mark key="]" line="6" column="26" />
+        <mark key="^" line="6" column="26" />
+        <mark key="." line="6" column="25" />
+      </file>
+      <file name="$USER_HOME$/Coding/prj-cmp-databinding-final/src/app/recipes/recipe-detail/recipe-detail.component.html" timestamp="1602149230938">
+        <mark key="[" line="17" column="24" />
+        <mark key="]" line="18" column="6" />
+        <mark key="^" line="18" column="6" />
+        <mark key="." line="18" column="5" />
+      </file>
+      <file name="$USER_HOME$/Coding/prj-cmp-databinding-final/src/app/header/header.component.html" timestamp="1602149387772">
+        <mark key="[" line="12" column="28" />
+        <mark key="]" line="12" column="40" />
+        <mark key="." line="12" column="39" />
+        <mark key="^" line="12" column="40" />
+      </file>
+      <file name="$USER_HOME$/Coding/prj-cmp-databinding-final/src/app/app.component.ts" timestamp="1602145855309">
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="^" line="10" column="30" />
+        <mark key="." line="11" column="0" />
+      </file>
+      <file name="$USER_HOME$/Coding/prj-cmp-databinding-final/src/app/app.module.ts" timestamp="1602148299223">
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="25" column="21" />
+        <mark key="^" line="25" column="21" />
+        <mark key="." line="25" column="20" />
+      </file>
+      <file name="/" timestamp="1602146735693">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="20" column="15" filename="$USER_HOME$/Coding/prj-cmp-databinding-final/src/karma.conf.js" />
+      <jump line="2" column="0" filename="$USER_HOME$/Coding/prj-cmp-databinding-final/src/karma.conf.js" />
+      <jump line="1" column="0" filename="$USER_HOME$/Coding/prj-cmp-databinding-final/src/app/shared/ingredient.model.ts" />
+      <jump line="3" column="0" filename="$USER_HOME$/Coding/prj-cmp-databinding-final/src/karma.conf.js" />
+      <jump line="24" column="16" filename="$USER_HOME$/Coding/prj-cmp-databinding-final/src/karma.conf.js" />
+      <jump line="23" column="14" filename="$USER_HOME$/Coding/prj-cmp-databinding-final/src/karma.conf.js" />
+      <jump line="30" column="0" filename="$USER_HOME$/Coding/prj-cmp-databinding-final/src/karma.conf.js" />
+      <jump line="10" column="14" filename="$USER_HOME$/Coding/prj-cmp-databinding-final/src/karma.conf.js" />
+      <jump line="11" column="14" filename="$USER_HOME$/Coding/prj-cmp-databinding-final/src/karma.conf.js" />
+      <jump line="12" column="13" filename="$USER_HOME$/Coding/prj-cmp-databinding-final/src/karma.conf.js" />
+      <jump line="0" column="0" filename="$USER_HOME$/Coding/prj-cmp-databinding-final/src/karma.conf.js" />
+      <jump line="27" column="0" filename="$USER_HOME$/Coding/prj-cmp-databinding-final/src/karma.conf.js" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAvLyBUT0RPOiB0b2dnbGUgb3BlbiBjbGFzcyB3aGVuIGNsaWNraW5nCg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICBjb25zdHJ1Y3RvcihwdWJsaWMgZGl2OiBIVE1MRGl2RWxlbWVudCkge30K</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIGNvbnNvbGUubG9nKGJ0bik7Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">IA==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+</application>

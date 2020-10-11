@@ -1,0 +1,8 @@
+2020/10/11-16:12:50.155 e78 Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/11-16:12:50.156 e78 Recovering log #670
+2020/10/11-16:12:50.156 e78 Reusing old log /home/trungtin/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000670.log 
+2020/10/11-16:12:52.159 fc9 Level-0 table #674: started
+2020/10/11-16:12:52.159 fc9 Level-0 table #674: 0 bytes OK
+2020/10/11-16:12:52.164 fc9 Delete type=0 #670
+2020/10/11-16:12:52.164 fc9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/11-16:12:52.164 fc9 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
