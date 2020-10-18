@@ -1,9 +1,0 @@
-2020/10/11-16:08:33.327 8e1 Reusing MANIFEST /home/trungtin/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2020/10/11-16:08:33.328 8e1 Recovering log #1288
-2020/10/11-16:08:33.329 8e1 Reusing old log /home/trungtin/.config/chromium/Default/Local Storage/leveldb/001288.log 
-2020/10/11-16:10:34.797 908 Level-0 table #1294: started
-2020/10/11-16:10:34.803 908 Level-0 table #1294: 96153 bytes OK
-2020/10/11-16:10:34.806 908 Delete type=0 #1288
-2020/10/11-16:11:34.798 ca0 Level-0 table #1296: started
-2020/10/11-16:11:34.806 ca0 Level-0 table #1296: 84988 bytes OK
-2020/10/11-16:11:34.811 ca0 Delete type=0 #1293

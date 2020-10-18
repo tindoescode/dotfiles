@@ -1,5 +1,0 @@
-2020/10/07-14:50:38.842 22ac Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/https_trungtin.me_0.indexeddb.leveldb/MANIFEST-000001
-2020/10/07-14:51:10.915 1b48 Level-0 table #5: started
-2020/10/07-14:51:10.919 1b48 Level-0 table #5: 1984 bytes OK
-2020/10/07-14:51:10.922 1b48 Delete type=0 #3
-2020/10/07-14:51:10.923 1b48 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

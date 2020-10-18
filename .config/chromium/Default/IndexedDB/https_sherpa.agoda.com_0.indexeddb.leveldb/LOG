@@ -1,5 +1,0 @@
-2020/10/10-21:40:59.975 56bd Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/https_sherpa.agoda.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/10/10-22:10:37.171 60d5 Level-0 table #5: started
-2020/10/10-22:10:37.180 60d5 Level-0 table #5: 88226 bytes OK
-2020/10/10-22:10:37.184 60d5 Delete type=0 #3
-2020/10/10-22:10:37.185 60d5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

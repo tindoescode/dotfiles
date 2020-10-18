@@ -3,5 +3,5 @@
 # ibus session bus with the below address.
 # If the IBUS_ADDRESS environment variable is set, it will
 # be used rather than this file.
-IBUS_ADDRESS=unix:abstract=/home/trungtin/.cache/ibus/dbus-UmDeXlqC,guid=b84eecf3fad1a384ec4936605f82ca5b
-IBUS_DAEMON_PID=1658
+IBUS_ADDRESS=unix:abstract=/home/trungtin/.cache/ibus/dbus-pewFmnmh,guid=b7a31db64b7f5ffe7a906d6e5f8c2f19
+IBUS_DAEMON_PID=1152

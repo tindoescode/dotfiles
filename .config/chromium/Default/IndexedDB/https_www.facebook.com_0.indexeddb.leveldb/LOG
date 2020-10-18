@@ -1,5 +1,0 @@
-2020/09/07-12:00:41.515 408 Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/07-12:01:13.541 450 Level-0 table #5: started
-2020/09/07-12:01:13.544 450 Level-0 table #5: 1236 bytes OK
-2020/09/07-12:01:13.546 450 Delete type=0 #3
-2020/09/07-12:01:13.547 450 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

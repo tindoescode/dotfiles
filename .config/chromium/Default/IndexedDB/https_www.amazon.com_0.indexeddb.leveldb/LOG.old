@@ -1,5 +1,0 @@
-2020/09/29-08:21:48.110 151d Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/29-08:21:51.650 7cf Level-0 table #5: started
-2020/09/29-08:21:51.655 7cf Level-0 table #5: 1296 bytes OK
-2020/09/29-08:21:51.659 7cf Delete type=0 #3
-2020/09/29-08:21:51.660 7cf Manual compaction at level-0 from (begin) .. (end); will stop at (end)

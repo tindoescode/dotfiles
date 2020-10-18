@@ -1,8 +1,0 @@
-2020/10/11-08:35:08.755 616d Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/10/11-08:35:08.756 616d Recovering log #25
-2020/10/11-08:35:08.756 616d Reusing old log /home/trungtin/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000025.log 
-2020/10/11-08:35:19.425 6466 Level-0 table #29: started
-2020/10/11-08:35:19.425 6466 Level-0 table #29: 0 bytes OK
-2020/10/11-08:35:19.431 6466 Delete type=0 #25
-2020/10/11-08:35:19.431 6466 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/10/11-08:35:19.431 6466 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

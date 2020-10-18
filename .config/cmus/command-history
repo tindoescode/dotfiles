@@ -1,0 +1,8 @@
+player-pause
+pause
+colorscheme itunes-like
+set altformat_trackwin
+w
+a ~/Music
+q
+help

@@ -7,9 +7,18 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 /etc/bluetooth/main.conf
+badd +0 .gitignore
+badd +1 /var/lib/gdm/.config/pulse/client.conf
+badd +26 /etc/default/grub
+badd +1 .config/default/grub
+badd +144 .zshrc
+badd +138 .config/nvim/init.vim
+badd +54 .config/bspwm/bspwmrc
+badd +27 .config/cmus/itunes-like.theme
+badd +44 .Xresources
+badd +2 .config/gtk-3.0/settings.ini
+badd +1 /etc/bluetooth/main.conf
 badd +161 .config/polybar/source/typicons/config.ini
-badd +23 .config/bspwm/bspwmrc
 badd +759 .config/ranger/rc.conf
 badd +5 /etc/NetworkManager/conf.d/dns.conf
 badd +1 /etc/NetworkManager/conf.d/dns-servers.conf
@@ -27,8 +36,6 @@ badd +117 .config/polybar/scripts/checkupdates
 badd +431 .config/polybar/source/typicons/bars.ini
 badd +21 pkglist.txt
 badd +29 /usr/share/dbus-1/system.d/bluetooth.conf
-badd +3 .gitignore
-badd +72 .zshrc
 badd +15 .config/sxhkd/sxhkdrc
 badd +1 .local/share/rofi/themes/slate.rasi
 badd +1 .config/rofi/config
@@ -38,10 +45,8 @@ badd +1 etc/modprobe.d/disable_autosuspend.conf
 badd +56 /etc/pulse/system.pa
 badd +1 /etc/profile
 badd +1 .xinitrc
-badd +1 /var/lib/gdm/.config/pulse/client.conf
 badd +1 Downloads/Compressed/gdm3theme-blur-0.0.2/SetAsWallpaper
 badd +14 test.sh
-badd +75 .config/nvim/init.vim
 badd +7 .config/desknamer/desknamer.json
 badd +1 .config/desknamer/desktop.blacklist
 badd +3 .config/bspwm/killscript
@@ -60,7 +65,7 @@ badd +27 Coding/my-app/angular.json
 argglobal
 %argdel
 $argadd .config/nvim/init.vim
-edit /etc/bluetooth/main.conf
+edit .gitignore
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -79,11 +84,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 24) / 49)
+let s:l = 2 - ((1 * winheight(0) + 23) / 47)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1
+2
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'

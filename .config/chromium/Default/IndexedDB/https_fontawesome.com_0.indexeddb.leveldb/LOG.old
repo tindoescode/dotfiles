@@ -1,5 +1,0 @@
-2020/10/07-16:15:21.368 af9d Reusing MANIFEST /home/trungtin/.config/chromium/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/10/07-16:17:35.873 a240 Level-0 table #5: started
-2020/10/07-16:17:35.876 a240 Level-0 table #5: 2871 bytes OK
-2020/10/07-16:17:35.879 a240 Delete type=0 #3
-2020/10/07-16:17:35.880 a240 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

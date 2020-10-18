@@ -139,7 +139,7 @@ let g:workspace_create_new_tabs = 0  " enabled = 1 (default), disabled = 0
 nnoremap <leader>s :ToggleWorkspace<CR>
 let g:workspace_session_name = 'session.vim'
 let g:workspace_session_directory = $HOME . '/.config/nvim/sessions/'
-let g:workspace_autosave_always = 1
+let g:workspace_autosave_always = 0
 
 " Trigger configuration. You need to change this to something else than <tab> if you use https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<c-b>"
