@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit
+fi
+
+if pgrep picom; then
+    pkill picom
+
+	cpufreqctl-trungtin max 50
+	echo 'Powersave Mode: CPU frequency set to 50.'
+else
+    picom &
+
+	cpufreqctl-trungtin max 100
+	echo 'Performance Mode: CPU frequency set to 100.'
+fi
+
