@@ -1,4 +1,4 @@
-set nocompatible 
+set nocompatible
 set encoding=utf-8
 set number relativenumber
 syntax enable
@@ -8,20 +8,13 @@ syntax enable
 " incorrectly contain bce in their terminfo files). This causes
 " incorrect background rendering when using a color theme with a
 " background color.
-let &t_ut=''
+" let &t_ut=''
+
+"let g:colorizer_auto_color = 1
+"let g:colorizer_syntax = 1
+"let g:colorizer_auto_map = 1
 
 
-if !has('gui_running')
-  set t_Co=256
-endif
-
-let g:vim_monokai_tasty_italic = 1
-let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ }
-let g:colorizer_auto_color = 1
-let g:colorizer_syntax = 1
-let g:colorizer_auto_map = 1
 
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
@@ -50,52 +43,62 @@ Plug 'thaerkh/vim-workspace'
 Plug 'Yggdroot/indentLine'
 Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
-"Plug 'SirVer/ultisnips'
-"Plug 'honza/vim-snippets'
 Plug '907th/vim-auto-save'
-
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
-let g:deoplete#enable_at_startup = 1
+Plug 'christoomey/vim-tmux-navigator'
 
 Plug 'scrooloose/nerdcommenter'
-Plug 'turbio/bracey.vim'
-Plug 'chrisbra/Colorizer'
-Plug 'VundleVim/Vundle.vim'
-Plug 'patstockwell/vim-monokai-tasty'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'itchyny/lightline.vim'
-Plug 'tpope/vim-fugitive'
-Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
+"Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'majutsushi/tagbar'
-Plug 'vim-scripts/taglist.vim'
-Plug 'wesleyche/SrcExpl'
-"Plug 'scrooloose/syntastic'
 Plug 'jiangmiao/auto-pairs'
-Plug 'Valloric/YouCompleteMe'
+"Plug 'Valloric/YouCompleteMe'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'easymotion/vim-easymotion'
-Plug 'flazz/vim-colorschemes'
-Plug 'mileszs/ack.vim'
+"Plug 'rakr/vim-one'
+"Plug 'whatyouhide/vim-gotham'
+Plug 'bignimbus/pop-punk.vim'
+Plug 'chrisbra/colorizer'
 
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+
+Plug 'mlaursen/vim-react-snippets'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'}
+
+Plug 'tpope/vim-surround'
+
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
+"
 " Initialize plugin system
 call plug#end()
 
-colorscheme vim-monokai-tasty
+colorscheme pop-punk
 
+let g:terminal_ansi_colors = pop_punk#AnsiColors()
+" just for fun
+let g:airline_section_c = '🎸 %F'
+" for lightline theme - this needs underscore too
+
+let g:lightline = {
+      \ 'colorscheme': 'pop_punk',
+      \ }
+
+
+"
 " NERD Tree mappings
 map <leader>nn :NERDTreeToggle<cr>
+map <F2> :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark 
 map <leader>nf :NERDTreeFind<cr>
 
 " Setting for AutoPairs
-let g:AutoPairsFlyMode = 0
+"let g:AutoPairsFlyMode = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
@@ -141,14 +144,43 @@ let g:workspace_session_name = 'session.vim'
 let g:workspace_session_directory = $HOME . '/.config/nvim/sessions/'
 let g:workspace_autosave_always = 0
 
-" Trigger configuration. You need to change this to something else than <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<c-b>"
-" let g:UltiSnipsJumpForwardTrigger="<c-b>"
-" let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-" If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
-
 " .vimrc
 let g:auto_save = 1  " enable AutoSave on Vim startup
 
+set shell=/bin/zsh
+
+autocmd FileType javascript setlocal ts=2 sts=2 sw=2
+autocmd FileType typescript setlocal ts=2 sts=2 sw=2
+autocmd FileType typescriptreact setlocal ts=2 sts=2 sw=2
+
+let g:tmux_navigator_no_mappings = 1
+nnoremap <silent> <C-w>h :TmuxNavigateLeft<cr>
+nnoremap <silent> <C-w>j :TmuxNavigateDown<cr>
+nnoremap <silent> <C-w>k :TmuxNavigateUp<cr>
+nnoremap <silent> <C-w>l :TmuxNavigateRight<cr>
+nnoremap <silent> <C-w>\ :TmuxNavigatePrevious<cr>
+
+"highlight Comment ctermfg=lightblue
+"highlight PmenuSbar ctermfg=17 ctermbg=3 guifg=#ffffff guibg=#000000
+"highlight PmenuThumb ctermfg=17 ctermbg=3 guifg=#ffffff guibg=#000000
+highlight Pmenu ctermfg=228 guifg=#ffff87
+
+"hi x016_Grey0 ctermfg=16 guifg=#000000 "rgb=0,0,0
+
+map + <C-W>+
+map - <C-W>-
+
+" Mapping selecting mappings
+nmap <leader><tab> <plug>(fzf-maps-n)
+xmap <leader><tab> <plug>(fzf-maps-x)
+omap <leader><tab> <plug>(fzf-maps-o)
+
+" Insert mode completion
+imap <c-x><c-k> <plug>(fzf-complete-word)
+imap <c-x><c-f> <plug>(fzf-complete-path)
+imap <c-x><c-l> <plug>(fzf-complete-line)
+
+nmap <leader>r :Rg<cr>
+
+let g:colorizer_auto_color = 1
+"let g:colorizer_auto_filetype='css,html,typescriptreact,typescript,react,config'

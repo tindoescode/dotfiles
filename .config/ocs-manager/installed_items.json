@@ -205,5 +205,16 @@
         "installed_at": 1601027092450,
         "provider": "https://www.pling.com/ocs/v1/",
         "url": "https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDEwMTc4NzUiLCJ1IjpudWxsLCJsdCI6Imluc3RhbGwiLCJzIjoiODEzOTFhOTliZDM5MTE5NDViOGU2ZGZmNmEyNzU5YjQ4ZTI0M2VlNTc3NjliNjUyNDQwMmQyM2M1YTVmNzA0YTI2ZGI5N2E1YzY3NGVjMjU1MjQzMGNlMTIyMDc3OWM3NDUxMjdjY2M1MTA2NTQ5MTE2OTllMDNmZDc2ZjRmODgiLCJ0IjoxNjAxMDMwNjgwLCJzdGZwIjoiZjZmNmViMzk5MzkxYWQ0MGY5OTRkNmVhNTA5YmIwYTMiLCJzdGlwIjoiMjQwMjo4MDA6NjNiMzpkMzAzOjc1MmY6NmJkZjozZTk3OjE5YjEifQ.EpqeRXXS5rkxPSn-by0otjlV39s4M3KslZpPpdunjdw/macOSBigSur.tar.gz"
+    },
+    "https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDI1ODM0NTIiLCJ1IjpudWxsLCJsdCI6Imluc3RhbGwiLCJzIjoiMzg2OWI2OGUwZTJlNzQ4ZjBjY2I5MmViZmI4NDRiYmVhZTk3NTMwZmQxYzAxODQ3NDg4OWNhNGQ0ZTIxMDAyMTJkZTdjOTZjZDhlYTYzMTBlODA5YTc4MDUyZDI0MTcxMDAxMjFiOTY5ZTM4NzY1Y2NlYWM0ZGFjMDg0Yzc5MDgiLCJ0IjoxNjAzODk5NzU0LCJzdGZwIjoiZjZmNmViMzk5MzkxYWQ0MGY5OTRkNmVhNTA5YmIwYTMiLCJzdGlwIjoiMjQwMjo4MDA6NjMxNDo0ZThkOjFkNDM6MzA1MDoyZjVjOjExOGYifQ.jWtNoGCVhWxNtiXTI-QJFliLPdaVNDYKSE_TipMK7HU/WhiteSur-light-solid.tar.xz": {
+        "content_id": "1403328",
+        "filename": "WhiteSur-light-solid.tar.xz",
+        "files": [
+            "WhiteSur-light-solid"
+        ],
+        "install_type": "gtk3_themes",
+        "installed_at": 1603896161042,
+        "provider": "https://www.pling.com/ocs/v1/",
+        "url": "https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDI1ODM0NTIiLCJ1IjpudWxsLCJsdCI6Imluc3RhbGwiLCJzIjoiMzg2OWI2OGUwZTJlNzQ4ZjBjY2I5MmViZmI4NDRiYmVhZTk3NTMwZmQxYzAxODQ3NDg4OWNhNGQ0ZTIxMDAyMTJkZTdjOTZjZDhlYTYzMTBlODA5YTc4MDUyZDI0MTcxMDAxMjFiOTY5ZTM4NzY1Y2NlYWM0ZGFjMDg0Yzc5MDgiLCJ0IjoxNjAzODk5NzU0LCJzdGZwIjoiZjZmNmViMzk5MzkxYWQ0MGY5OTRkNmVhNTA5YmIwYTMiLCJzdGlwIjoiMjQwMjo4MDA6NjMxNDo0ZThkOjFkNDM6MzA1MDoyZjVjOjExOGYifQ.jWtNoGCVhWxNtiXTI-QJFliLPdaVNDYKSE_TipMK7HU/WhiteSur-light-solid.tar.xz"
     }
 }

@@ -8,12 +8,12 @@ fi
 if pgrep picom; then
     pkill picom
 
-	cpufreqctl-trungtin max 50
+	cpufreqctl max 50
 	echo 'Powersave Mode: CPU frequency set to 50.'
 else
     picom &
 
-	cpufreqctl-trungtin max 100
+	cpufreqctl max 100
 	echo 'Performance Mode: CPU frequency set to 100.'
 fi
 

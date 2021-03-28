@@ -2,26 +2,51 @@
   <component name="RecentProjectsManager">
     <option name="additionalInfo">
       <map>
-        <entry key="$USER_HOME$/WebstormProjects/untitled">
+        <entry key="$USER_HOME$/WebstormProjects/facebook-note-font-changer/.idea">
           <value>
-            <RecentProjectMetaInfo projectWorkspaceId="1iaOWxWX9CIIyHbE5LR1lE8edlj">
+            <RecentProjectMetaInfo projectWorkspaceId="1jEy8IB3EG0esIZnKPuNLcZG4sl">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="WS-202.7660.23" />
-              <option name="buildTimestamp" value="1601476447356" />
+              <option name="buildTimestamp" value="1601476460370" />
+              <frame x="940" y="61" width="973" height="1012" />
               <option name="productionCode" value="WS" />
-              <option name="projectOpenTimestamp" value="1602142272924" />
+              <option name="projectOpenTimestamp" value="1603383385482" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/WebstormProjects/untitled1">
+        <entry key="$USER_HOME$/WebstormProjects/facebook-note-font-changer">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1iaOk4AekVuJ5ojU7q6AXkUqbON">
+            <RecentProjectMetaInfo projectWorkspaceId="1jDcMC1ZlzfTytN6aGJ1ynjJPwG">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="WS-202.7660.23" />
-              <option name="buildTimestamp" value="1601476471776" />
-              <frame x="260" y="40" width="1400" height="1000" />
+              <option name="buildTimestamp" value="1601476460370" />
+              <frame x="904" y="123" width="1009" height="950" />
               <option name="productionCode" value="WS" />
-              <option name="projectOpenTimestamp" value="1602142896909" />
+              <option name="projectOpenTimestamp" value="1603383403261" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/WebstormProjects/untitled">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1j5VGAT34CrNSP9zZNWzmlOWU1A">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-202.7660.23" />
+              <option name="buildTimestamp" value="1601476470844" />
+              <frame x="7" y="29" width="1906" height="1044" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1604984678075" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/yellowcake">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1k5Jpob5LJtxQxUyNiNmdnNOwPM">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-202.7660.23" />
+              <option name="buildTimestamp" value="1601476470844" />
+              <frame x="7" y="29" width="1906" height="1044" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1604984704442" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -30,8 +55,10 @@
     <option name="lastProjectLocation" value="$USER_HOME$/WebstormProjects" />
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/WebstormProjects/untitled1" />
+        <option value="$USER_HOME$/yellowcake" />
         <option value="$USER_HOME$/WebstormProjects/untitled" />
+        <option value="$USER_HOME$/WebstormProjects/facebook-note-font-changer" />
+        <option value="$USER_HOME$/WebstormProjects/facebook-note-font-changer/.idea" />
       </list>
     </option>
   </component>

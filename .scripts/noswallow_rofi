@@ -1,7 +1,7 @@
 #!/bin/sh
 
 killall bspswallow
-rofi -show run -font "SF Pro Display 12"
+zsh -c 'rofi -show run -font "SF Pro Display 12"'
 
 while pidof rofi; do continue
 done

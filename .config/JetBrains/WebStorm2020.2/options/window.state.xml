@@ -1,6 +1,26 @@
 <application>
+  <component name="DimensionService">
+    <location key="find.popup.0.0.1920.1080" x="653" y="138" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1882" height="381" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1882" height="381" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1882" height="381" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1882" height="381" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="918" height="340" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="918" height="340" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="918" height="340" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="918" height="340" />
+    <size key="GridCell.Tab.2.left.0.0.1920.1080" width="918" height="340" />
+    <size key="GridCell.Tab.2.center.0.0.1920.1080" width="918" height="340" />
+    <size key="GridCell.Tab.2.right.0.0.1920.1080" width="918" height="340" />
+    <size key="GridCell.Tab.2.bottom.0.0.1920.1080" width="918" height="340" />
+    <size key="GridCell.Tab.3.left.0.0.1920.1080" width="918" height="340" />
+    <size key="GridCell.Tab.3.center.0.0.1920.1080" width="918" height="340" />
+    <size key="GridCell.Tab.3.right.0.0.1920.1080" width="918" height="340" />
+    <size key="GridCell.Tab.3.bottom.0.0.1920.1080" width="918" height="340" />
+    <size key="find.popup.0.0.1920.1080" width="613" height="804" />
+  </component>
   <component name="WindowManager">
-    <frame x="260" y="40" width="1400" height="1000" />
+    <frame x="7" y="29" width="1906" height="1044" extendedState="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />

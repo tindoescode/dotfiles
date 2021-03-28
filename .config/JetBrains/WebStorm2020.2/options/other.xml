@@ -1,21 +1,35 @@
 <application>
   <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/bin/node">
+      <version-cache version="14.14.0" last-modified="1602836089000" />
+    </local-interpreter>
     <local-interpreter path="/usr/bin/node">
-      <version-cache version="14.13.1" last-modified="1602112328000" />
+      <version-cache version="15.0.1" last-modified="1603313594000" />
     </local-interpreter>
   </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="20" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FindSplitterProportion" value="0.0" />
     <property name="GeneralSettings.initiallyConfigured" value="true" />
     <property name="InstalledPluginsSearchHistory" value="material&#10;/tag:Keymap&#10;mater" />
+    <property name="KEYMAP" value="paste" />
     <property name="MTUILite.version" value="4.0" />
-    <property name="MarketplacePluginsSearchHistory" value="Material&#10;Ma&#10;/tag:Keymap&#10;mater" />
+    <property name="MarketplacePluginsSearchHistory" value="vim&#10;Material&#10;Ma&#10;/tag:Keymap&#10;mater" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
-    <property name="SettingsSearchHistory" value="material&#10;main setting&#10;mater" />
+    <property name="SettingsSearchHistory" value="Zoom&#10;theme&#10;material&#10;main setting&#10;mater" />
     <property name="UITheme.relaunch" value="true" />
-    <property name="appcds.runOnSecondStart" value="WS-202.7660.23-34323508ffdf9ce67ef0ad59f42f71f673909094858941c349b6e2ae644baa8d" />
+    <property name="appcds.runOnSecondStart" value="WS-202.7660.23-26eb1403d2b9f442c99336975c4002f8f2704bdae906fd3ebf513dd6c76a23db" />
     <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
     <property name="evlsprt3.202" value="12" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/yellowcake" />
+    <property name="file.gist.reindex.count" value="14392" />
     <property name="ide.memory.adjusted" value="true" />
+    <property name="ideavim.statistics.timestamp" value="1604984920473" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
     <property name="ts.lib.d.ts.version" value="3.9.5" />
   </component>

@@ -8,35 +8,70 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
 endif
 set shortmess=aoO
 badd +0 .gitignore
+badd +12 .config/polybar/launch.sh
+badd +3 .config/polybar/config.ini
+badd +36 .config/bspwm/bspwmrc
+badd +161 .zshrc
+badd +3 /etc/resolv.conf
+badd +7 .config/sxhkd/sxhkdrc
+badd +1 .config/kitty/kitty.conf
+badd +76 .config/nvim/init.vim
+badd +36 .tmux.conf
+badd +4 .imwheelrc
+badd +365 /mnt/Windows/Users/Admin/Desktop/MMT\ -\ Source\ Server/CustomWindowsForm/MainForm.cs
+badd +1 azdigi
+badd +2 .fehbg
+badd +1 Coding/js/webpack-tutorial/src/index.html
+badd +1 .vimrc
+badd +149 Coding/openmp/gamemode/gamemodes/Updates.pwn
+badd +28687 Coding/openmp/rpg/gamemodes/merged.pwn
+badd +1 lab2-algorithms-time.txt
+badd +1 Documents/Computer\ Networks/Lap\ trinh\ socket/Source/client/client.sln
+badd +1 CLionProjects/datastructure-algorithm/PHW_1/main.cpp
+badd +1 .config/Code\ -\ OSS/User/settings.json
+badd +29391 Downloads/Fast-Game\ RPG/gamemodes/fast-game.pwn
+badd +1 /root/.npm/_logs/2020-11-04T03_21_56_026Z-debug.log
+badd +1 blog/public/page-data/index/page-data.json
+badd +3 blog/public/index.html
+badd +4 .config/gtk-3.0/settings.ini
+badd +9 .config/polybar/source/typicons/scripts/powermenu-alt
+badd +1 .config/polybar/source/typicons/scripts/powermenu
+badd +1 .config/polybar/source/typicons/scripts/launcher
+badd +9 .xinitrc
+badd +1 config
+badd +25 .config/mimeapps.list
+badd +54 /etc/default/grub
+badd +212 .config/polybar/source/typicons/user_modules.ini
+badd +307 .config/polybar/source/typicons/config.ini
+badd +274 .config/polybar/source/typicons/modules.ini
+badd +4 .config/rofi/config.rasi
+badd +1 README.md
+badd +3 .profile
+badd +1 .local/share/applications/defaults.list
+badd +1 .bashrc
+badd +1 .xsession-errors
+badd +45 .local/share/pikaur/aur_repos/anydesk-bin/PKGBUILD
+badd +8 /etc/systemd/system/powertop.service
+badd +1 .zsh
 badd +1 /var/lib/gdm/.config/pulse/client.conf
-badd +26 /etc/default/grub
 badd +1 .config/default/grub
-badd +144 .zshrc
-badd +138 .config/nvim/init.vim
-badd +54 .config/bspwm/bspwmrc
 badd +27 .config/cmus/itunes-like.theme
 badd +44 .Xresources
-badd +2 .config/gtk-3.0/settings.ini
 badd +1 /etc/bluetooth/main.conf
-badd +161 .config/polybar/source/typicons/config.ini
 badd +759 .config/ranger/rc.conf
 badd +5 /etc/NetworkManager/conf.d/dns.conf
 badd +1 /etc/NetworkManager/conf.d/dns-servers.conf
 badd +1 /run/NetworkManager/no-stub-resolv.conf
-badd +1 /etc/resolv.conf
 badd +1 .config/polybar/source/typicons/config
 badd +56 .config/polybar/source/typicons/colors.ini
 badd +17 .scripts/toggle-mode
 badd +1 .scripts/powersave_mode
-badd +171 .config/polybar/source/typicons/user_modules.ini
-badd +1 .config/polybar/source/typicons/modules.ini
 badd +1 .config/polybar/scripts/windows
 badd +3 .config/polybar/scripts/lupdates
 badd +117 .config/polybar/scripts/checkupdates
 badd +431 .config/polybar/source/typicons/bars.ini
 badd +21 pkglist.txt
 badd +29 /usr/share/dbus-1/system.d/bluetooth.conf
-badd +15 .config/sxhkd/sxhkdrc
 badd +1 .local/share/rofi/themes/slate.rasi
 badd +1 .config/rofi/config
 badd +83 .config/cava/config
@@ -44,7 +79,6 @@ badd +1 etc/bluetooth/main.conf
 badd +1 etc/modprobe.d/disable_autosuspend.conf
 badd +56 /etc/pulse/system.pa
 badd +1 /etc/profile
-badd +1 .xinitrc
 badd +1 Downloads/Compressed/gdm3theme-blur-0.0.2/SetAsWallpaper
 badd +14 test.sh
 badd +7 .config/desknamer/desknamer.json
@@ -57,11 +91,17 @@ badd +1 .scripts/colortheme.sh
 badd +1 Coding/angular-film/src/styles.scss
 badd +1 Documents/Chặng\ đường\ 5\ năm\ đàn\ ông
 badd +6 Coding/angular-film/src/assets/_colours.scss
-badd +1 .fehbg
 badd +1 Videos/\[FreeCourseSite.com]\ Udemy\ -\ Angular\ -\ The\ Complete\ Guide\ (2020\ Edition)/2.\ The\ Basics/5.\ Understanding\ the\ Role\ of\ AppModule\ and\ Component\ Declaration.srt
 badd +6 _colours.scss
-badd +165 .config/polybar/config.ini
 badd +27 Coding/my-app/angular.json
+badd +1 /etc/X11/xinit/xinitrc
+badd +1 .config/gtk-4.0/settings.ini
+badd +1 .config/gtk-2.0/gtkfilechooser.ini
+badd +20 test.txt
+badd +3 password-phong-lab
+badd +1 /tmp/ycmd_41971_stdout_gx_uu9vc.log
+badd +1 /tmp/ycm_it07_x7c.log
+badd +1 \[Plugins]
 argglobal
 %argdel
 $argadd .config/nvim/init.vim
@@ -84,12 +124,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 2 - ((1 * winheight(0) + 23) / 47)
+let s:l = 1 - ((0 * winheight(0) + 23) / 46)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-2
-normal! 0
+1
+normal! 07|
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

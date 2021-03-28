@@ -8,7 +8,7 @@ super + Return
 
 # browser launcher
 super + shift + c
-    chromium
+    google-chrome-stable
 
 # program launcher
 super + d
@@ -18,10 +18,16 @@ super + d
 super + e
     kitty --name Terminal -e ranger
 
+super + shift + e
+	nautilus
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 
+# task manager
+ctrl + alt + Delete
+	kitty -e htop
 #
 # bspwm hotkeys
 #
@@ -146,8 +152,8 @@ ctrl + alt + a
 	flameshot gui
 
 # rofi window switcher
-super + r
-	rofi -show window
+alt + r
+	rofi -show window -i zsh
 
 # print screen key
 Print

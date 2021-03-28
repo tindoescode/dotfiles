@@ -2,14 +2,13 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/trungtin/.oh-my-zsh"
+export ZSH="${HOME}/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# ZSH_THEME="robbyrussell"
-ZSH_THEME="random"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -69,7 +68,7 @@ ZSH_THEME="random"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-z zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions zsh-z tmux)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,28 +98,30 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-PATH="/home/trungtin/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/trungtin/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/trungtin/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/trungtin/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/trungtin/perl5"; export PERL_MM_OPT;
+PATH="${HOME}/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="${HOME}/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="${HOME}/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"${HOME}/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=${HOME}/perl5"; export PERL_MM_OPT;
+export PATH="${PATH}:${HOME}/.gem/ruby/2.7.0/bin"
 
-export TERM=xterm-256color
-export PATH="/home/trungtin/.scripts:$PATH"
+export TERM=kitty
+export PATH="${HOME}/.scripts:$PATH"
 
-alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+alias config="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias vim="nvim"
 
-bindkey '^b' autosuggest-accept
+bindkey '^n' autosuggest-accept
 
 export VISUAL=nvim;
 export EDITOR=nvim;
 
+export PATH="${PATH}:${HOME}/.local/bin/"
+
 # ASCII art
 /opt/shell-color-scripts/colorscript.sh random
 
-export _JAVA_AWT_WM_NONREPARTENTING=1
-
+export _JAVA_AWT_WM_NONREPARENTING=1
 # FZF
 # fh - repeat history
 fh() {
@@ -129,7 +130,7 @@ fh() {
 
 # fkill - kill processes - list only the ones you can kill. Modified the earlier script.
 fkill() {
-    local pid 
+    local pid
     if [ "$UID" != "0" ]; then
         pid=$(ps -f -u $UID | sed 1d | fzf -m | awk '{print $2}')
     else
@@ -142,3 +143,20 @@ fkill() {
     fi  
 }
 
+reload_gtk_theme() {
+  theme=$(gsettings get org.gnome.desktop.interface gtk-theme)
+  gsettings set org.gnome.desktop.interface gtk-theme ''
+  sleep 1
+  gsettings set org.gnome.desktop.interface gtk-theme $theme
+}
+
+export GTK_IM_MODULE=ibus
+export QT_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+# Dành cho những phần mềm dựa trên qt4
+export QT4_IM_MODULE=ibus
+# Dành cho những phần mềm dùng thư viện đồ họa clutter/OpenGL
+export CLUTTER_IM_MODULE=ibus
+export GLFW_IM_MODULE=ibus
+
+ZSH_TMUX_AUTOSTART=true

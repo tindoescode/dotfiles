@@ -1,1 +1,1 @@
-{"net":{"http_server_properties":{"servers":[{"https://www.google-analytics.com":{"supports_spdy":true}},{"https://ajax.googleapis.com":{"supports_spdy":true}},{"https://js-agent.newrelic.com":{"supports_spdy":true}}],"version":5}}}
+{"net":{"http_server_properties":{"servers":[{"https://ajax.googleapis.com":{"supports_spdy":true}},{"https://www.google-analytics.com":{"supports_spdy":true}},{"https://js-agent.newrelic.com":{"supports_spdy":true}}],"version":5}}}
